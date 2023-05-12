@@ -4,6 +4,8 @@ on:
     # run every 4 hours
     - cron: '20 */4 * * *'
 name: Excavator
+permissions:
+  contents: write
 jobs:
   excavate:
     name: Excavate
@@ -14,4 +16,4 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SKIP_UPDATED: '1'
+          SKIP_UPDATED: 1
