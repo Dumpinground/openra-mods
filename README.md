@@ -8,7 +8,7 @@ Template bucket for [Scoop](https://scoop.sh), the Windows command-line installe
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add openra-mods https://github.com/Dumpinground/openra-mods`.  
+To add this bucket, run `scoop bucket add openra-mods https://github.com/Dumpinground/openra-mods`.<br>
 To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
